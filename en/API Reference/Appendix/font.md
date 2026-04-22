@@ -1,0 +1,537 @@
+# Font
+
+*Last updated: over 11 months ago*
+
+## Available Fonts
+
+Below is a comprehensive list of fonts supported or referenced in the system:
+
+- Al Bayan  
+- Al Nile  
+- Al Tarikh  
+- Academy Engraved LET Fonts  
+- ADTNumeric  
+- Aldhabi  
+- American Typewriter  
+- American Typewriter Semibold  
+- Andale Mono  
+- Anonymous Pro  
+- Apple Braille  
+- Apple Braille Outline 6 Dot  
+- Apple Braille Outline 8 Dot  
+- Apple Braille Pinpoint 6 Dot  
+- Apple Braille Pinpoint 8 Dot  
+- Apple Chancery  
+- Apple Color Emoji  
+- Apple SD Gothic Neo  
+- Apple Symbols  
+- AppleGothic  
+- AppleMyungjo  
+- Arial  
+- Arial Black  
+- Arial Bold  
+- Arial Bold Italic  
+- Arial Hebrew  
+- Arial Italic  
+- Arial Narrow  
+- Arial Narrow Bold  
+- Arial Narrow Bold Italic  
+- Arial Narrow Italic  
+- Arial Rounded MT Bold  
+- Arial Unicode  
+- Arial Unicode MS  
+- Arimo  
+- Athelas  
+- Avenir  
+- Avenir Next  
+- Avenir Next Condensed  
+- AquaKana  
+- Ayuthaya  
+- Baghdad  
+- Bahnschrift  
+- Bangla MN  
+- Bangla Sangam MN  
+- Baskerville  
+- Bastion (implied via Big Caslon / BigCaslon)  
+- Beirut  
+- Big Caslon  
+- BigCaslon  
+- Bitstream Inc  
+- BlinkMacSystemFont  
+- Bodoni 72  
+- Bodoni 72 OS  
+- Bodoni 72 Smallcaps Book  
+- Bodoni Ornaments  
+- Bradley Hand  
+- Bradley Hand Bold  
+- Brush Script  
+- Brush Script MT  
+- Calibri  
+- Cambria  
+- Cambria Math  
+- Candara  
+- Cascadia Code  
+- Charter  
+- Chalkboard  
+- Chalkboard SE  
+- ChalkboardSE  
+- Chalkduster  
+- Cochin  
+- Comic Sans MS  
+- Comic Sans MS Bold  
+- Comic Shanns Mono  
+- Commit Mono  
+- Consolas  
+- Constantia  
+- Corbel  
+- Corsiva  
+- Corsiva Hebrew  
+- Cousine  
+- Courier  
+- Courier New  
+- Courier New Bold  
+- Courier New Bold Italic  
+- Courier New Italic  
+- D2Coding  
+- Damascus  
+- DecoType Naskh  
+- DecoTypeNaskh  
+- DejaVu  
+- Devanagari MT  
+- Devanagari Sangam MN  
+- DevanagariMT  
+- Didot  
+- Diwan Kufi  
+- Diwan Thuluth  
+- DIN Alternate  
+- DIN Alternate Bold  
+- DIN Condensed  
+- DIN Condensed Bold  
+- DaddyTimeMono  
+- Ebrima  
+- Elbasan (via NotoSansElbasan-Regular)  
+- Envy Code R  
+- Euphemia CAS  
+- Euphemia UCAS  
+- Farah  
+- Farisi  
+- Fantasque Sans  
+- Fira  
+- Fira Code  
+- Franklin Gothic  
+- Futura  
+- Futura Bold  
+- Gadugi  
+- Gabriola  
+- Gabriola Regular  
+- Galvji  
+- Geeza Pro  
+- GeezaPro  
+- Geneva  
+- Geist Mono  
+- Georgia  
+- Georgia Bold  
+- Georgia Bold Italic  
+- Georgia Italic  
+- Gill Sans  
+- GillSans  
+- Go-Mono  
+- Gohu TTF, Gohu  
+- Go-Mono  
+- Hasklig  
+- HelveLTMM  
+- Helvetica  
+- Helvetica Neue  
+- HelveticaNeue  
+- Herculanum  
+- Hermit  
+- Hiragino Sans  
+- Hiragino Sans GB  
+- ヒラギノ角ゴシック W0  
+- ヒラギノ角ゴシック W1  
+- ヒラギノ角ゴシック W2  
+- ヒラギノ角ゴシック W3  
+- ヒラギノ角ゴシック W4  
+- ヒラギノ角ゴシック W5  
+- ヒラギノ角ゴシック W6  
+- ヒラギノ角ゴシック W7  
+- ヒラギノ角ゴシック W8  
+- ヒラギノ角ゴシック W9  
+- ヒラギノ明朝 ProN  
+- ヒラギノ丸ゴ ProN W4  
+- Hoefler Text  
+- Hoefler Text Ornaments  
+- IBM Plex Mono  
+- Impact  
+- Impact Regular  
+- InaiMathi  
+- InaiMathi Bold  
+- InaiMathi-MN  
+- Ink Free  
+- Intel One Mono  
+- Inconsolata  
+- Inconsolata LGC  
+- InconsolataGo  
+- Iosevka  
+- Iosevka Term  
+- Iosevka Term Slab  
+- ITF Devanagari  
+- ITFDevanagari  
+- Iowan Old Style  
+- JetBrains Mono  
+- Javanese Text  
+- Kailasa  
+- Kannada MN  
+- Kannada Sangam MN  
+- Keyboard  
+- Khmer MN  
+- Khmer Sangam MN  
+- Kefa  
+- Kohinoor  
+- Kohinoor Bangla  
+- Kohinoor Devanagari Medium  
+- Kohinoor Gujarati  
+- Kohinoor Telugu  
+- Kokonor  
+- Krungthep  
+- KufiStandardGK  
+- Lao MN  
+- Lao Sangam MN  
+- LastResort  
+- Leelawadee UI  
+- Liberation  
+- Lekton  
+- Lilex  
+- Luminari  
+- Lucida Console  
+- Lucida Console Regular  
+- Lucida Grande  
+- LucidaGrande  
+- Lucida Sans Unicode  
+- M+ Fonts  
+- MS Gothic  
+- MS Gothic Regular  
+- MS PGothic  
+- MS PGothic Regular  
+- MS Sans Serif  
+- MS UI Gothic  
+- MV Boli  
+- Mac fonts (various)  
+- Malgun Gothic  
+- Malayalam MN  
+- Malayalam Sangam MN  
+- Marlett  
+- Marion  
+- Marker Felt  
+- MarkerFelt  
+- Meetei Mayek (via NotoSansMeeteiMayek-Regular)  
+- Menlo  
+- Meslo  
+- Microsoft Himalaya  
+- Microsoft JhengHei  
+- Microsoft JhengHei UI  
+- Microsoft JhengHei UI Light  
+- Microsoft New Tai Lue  
+- Microsoft PhagsPa  
+- Microsoft PhangsPa  
+- Microsoft Sans Serif  
+- Microsoft Sans Serif Regular  
+- Microsoft Tai Le  
+- Microsoft YaHei  
+- Microsoft Yi Baiti  
+- MingLiU-ExtB  
+- MingLiU_HKSCS-ExtB  
+- MingLiu-ExtB  
+- Mishafi  
+- Mishafi Gold  
+- Monaspace  
+- Monaco  
+- Monoid  
+- Mononoki  
+- Mongolian Baiti  
+- Mshtakan  
+- MuktaMahee  
+- MuktaMahee Regular  
+- Muna  
+- Myanmar MN  
+- Myanmar Sangam MN  
+- Myanmar Tet  
+- Myanmar Text  
+- NISC18030  
+- Nadeem  
+- New Peninim MT  
+- NewPeninimMT  
+- NewYork  
+- NewYorkItalic  
+- Nirmala UI  
+- Noto  
+- Noto Nastaliq Urdu  
+- NotoNastaliq  
+- NotoSansAdlam-Regular  
+- NotoSansAhom-Regular  
+- NotoSansArmenian  
+- NotoSansAvestan-Regular  
+- NotoSansBamum-Regular  
+- NotoSansBassaVah-Regular  
+- NotoSansBatak-Regular  
+- NotoSansBhaiksuki-Regular  
+- NotoSansBrahmi-Regular  
+- NotoSansBuginese-Regular  
+- NotoSansBuhid-Regular  
+- NotoSansCarian-Regular  
+- NotoSansCaucasianAlbanian-Regular  
+- NotoSansChakma-Regular  
+- NotoSansCham-Regular  
+- NotoSansCoptic-Regular  
+- NotoSansCuneiform-Regular  
+- NotoSansCypriot-Regular  
+- NotoSansDuployan-Regular  
+- NotoSansEgyptianHieroglyphs-Regular  
+- NotoSansElbasan-Regular  
+- NotoSansGlagolitic-Regular  
+- NotoSansGothic-Regular  
+- NotoSansGunjalaGondi-Regular  
+- NotoSansHanifiRohingya-Regular  
+- NotoSansHanunoo-Regular  
+- NotoSansHatran-Regular  
+- NotoSansImperialAramaic-Regular  
+- NotoSansInscriptionalPahlavi-Regular  
+- NotoSansInscriptionalParthian-Regular  
+- NotoSansJavanese-Regular  
+- NotoSansKayahLi-Regular  
+- NotoSansKhudawadi-Regular  
+- NotoSansKhojki-Regular  
+- NotoSansKannada  
+- NotoSansKaithi-Regular  
+- NotoSansKharoshthi-Regular  
+- NotoSansKhmer  
+- NotoSansLepcha-Regular  
+- NotoSansLimbu-Regular  
+- NotoSansLinearA-Regular  
+- NotoSansLinearB-Regular  
+- NotoSansLisu-Regular  
+- NotoSansLycian-Regular  
+- NotoSansLydian-Regular  
+- NotoSansMahajani-Regular  
+- NotoSansMandaic-Regular  
+- NotoSansManichaean-Regular  
+- NotoSansMarchen-Regular  
+- NotoSansMasaramGondi-Regular  
+- NotoSansMeeteiMayek-Regular  
+- NotoSansMendeKikakui-Regular  
+- NotoSansMeroitic-Regular  
+- NotoSansMiao-Regular  
+- NotoSansModi-Regular  
+- NotoSansMongolian-Regular  
+- NotoSansMultani-Regular  
+- NotoSansMro-Regular  
+- NotoSansMyanmar  
+- NotoSansNabataean-Regular  
+- NotoSansNKo-Regular  
+- NotoSansNewa-Regular  
+- NotoSansNewTaiLue-Regular  
+- NotoSansOlChiki-Regular  
+- NotoSansOldHungarian-Regular  
+- NotoSansOldItalic-Regular  
+- NotoSansOldNorthArabian-Regular  
+- NotoSansOldPermic-Regular  
+- NotoSansOldPersian-Regular  
+- NotoSansOldSouthArabian-Regular  
+- NotoSansOldTurkic-Regular  
+- NotoSansOsage-Regular  
+- NotoSansOsmanya-Regular  
+- NotoSansPahawhHmong-Regular  
+- NotoSansPalmyrene-Regular  
+- NotoSansPauCinHau-Regular  
+- NotoSansPhagsPa-Regular  
+- NotoSansPhoenician-Regular  
+- NotoSansPsalterPahlavi-Regular  
+- NotoSansRejang-Regular  
+- NotoSansSamaritan-Regular  
+- NotoSansSaurashtra-Regular  
+- NotoSansSharada-Regular  
+- NotoSansSiddham-Regular  
+- NotoSansSoraSompeng-Regular  
+- NotoSansSundanese-Regular  
+- NotoSansSyriac-Regular  
+- NotoSansTagalog-Regular  
+- NotoSansTagbanwa-Regular  
+- NotoSansTaiLe-Regular  
+- NotoSansTaiTham-Regular  
+- NotoSansTaiViet-Regular  
+- NotoSansTakri-Regular  
+- NotoSansThaana-Regular  
+- NotoSansTifinagh-Regular  
+- NotoSansTirhuta-Regular  
+- NotoSansUgaritic-Regular  
+- NotoSansVai-Regular  
+- NotoSansWancho-Regular  
+- NotoSansWarangCiti-Regular  
+- NotoSansYi-Regular  
+- NotoSerifAhom-Regular  
+- NotoSerifBalinese-Regular  
+- NotoSerifMyanmar  
+- NotoSerifNyiakengPuachueHmong-Regular  
+- NotoSerifYezidi-Regular  
+- OpenDyslexic  
+- Optima  
+- Oriya MN  
+- Oriya Sangam MN  
+- Overpass  
+- PMingLiU-ExtB  
+- PT Mono  
+- PT Sans  
+- PT Sans Caption  
+- PT Sans Narrow  
+- PT Serif  
+- PT Serif Caption  
+- PTMono  
+- PTSans  
+- PTSerif  
+- PTSerifCaption  
+- Palatino  
+- Palatino Linotype  
+- Papyrus  
+- PartyLET-plain  
+- Phosphate  
+- PingFang  
+- PingFang HK  
+- PingFang HK Light  
+- Plantagenet Cherokee  
+- PlantagenetCherokee  
+- ProFont  
+- Raanana  
+- Roboto Mono  
+- Rockwell  
+- Roman Regular  
+- Sana  
+- Sam Radian  
+- Sathu  
+- Savoye LET  
+- Script  
+- Script Regular  
+- Segoe Fluent Icons  
+- Segoe MDL2 Assets  
+- Segoe Print  
+- Segoe Script  
+- Segoe UI  
+- Segoe UI Emoji  
+- Segoe UI Light  
+- Segoe UI Semilight  
+- Segoe UI Symbol  
+- Share Tech Mono  
+- Shree714  
+- SignPainter  
+- SignPainter-HouseScript Semibold  
+- Silom  
+- SimSun  
+- SimSun-ExtB  
+- Sinhala MN  
+- Sinhala Sangam MN  
+- Sitka Banner  
+- Sitka Heading  
+- Sitka Small  
+- Sitka Subheading  
+- Skia  
+- Small Fonts Regular  
+- Snell Roundhand  
+- SnellRoundhand  
+- Songti  
+- Songti SC  
+- Songti TC  
+- Source  
+- STHeiti Light  
+- STHeiti Medium  
+- STIXGeneral  
+- STIXGeneralBol  
+- STIXGeneralBolIta  
+- STIXGeneralItalic  
+- STIXIntDBol  
+- STIXIntDReg  
+- STIXIntegralsD  
+- STIXIntegralsSm  
+- STIXIntegralsUp  
+- STIXIntegralsUpD  
+- STIXIntegralsUpSm  
+- STIXIntSmBol  
+- STIXIntSmReg  
+- STIXIntUpBol  
+- STIXIntUpDBol  
+- STIXIntUpDReg  
+- STIXIntUpReg  
+- STIXIntUpSmBol  
+- STIXIntUpSmReg  
+- STIXNonUni  
+- STIXNonUniBol  
+- STIXNonUniBolIta  
+- STIXNonUniIta  
+- STIXSizFiveSymReg  
+- STIXSizFourSymBol  
+- STIXSizFourSymReg  
+- STIXSizOneSymBol  
+- STIXSizOneSymReg  
+- STIXSizThreeSymBol  
+- STIXSizThreeSymReg  
+- STIXSizTwoSymBol  
+- STIXSizTwoSymReg  
+- STIXSizeFiveSym  
+- STIXSizeFourSym  
+- STIXSizeOneSym  
+- STIXSizeThreeSym  
+- STIXSizeTwoSym  
+- STIXTwoMath  
+- STIXTwoText  
+- STIXTwoText-Italic  
+- STIXVar  
+- STIXVarBol  
+- STIXVariants  
+- STSong  
+- Sukhumvit Set  
+- SukhumvitSet  
+- SuperClarendon  
+- Symbol  
+- Tahoma  
+- Tahoma Bold  
+- Tamil MN  
+- Tamil Sangam MN  
+- Telugu MN  
+- Telugu Sangam MN  
+- Terminus TTF  
+- Thonburi  
+- ThonburiUI  
+- Times  
+- Times New Roman  
+- Times New Roman Bold  
+- Times New Roman Bold Italic  
+- Times New Roman Italic  
+- TimesLTMM  
+- Tinos  
+- Tobias B Koehler  
+- Trebuchet MS  
+- Trebuchet MS Bold  
+- Trebuchet MS Bold Italic  
+- Trebuchet MS Italic  
+- Trattatello  
+- Ubuntu Font  
+- VileR  
+- Verdana  
+- Verdana Bold  
+- Verdana Bold Italic  
+- Verdana Italic  
+- Victor Mono  
+- Vic Fieger  
+- Waseem  
+- Webdings  
+- Wingdings  
+- Wingdings 2  
+- Wingdings 3  
+- Yu Gothic  
+- Yu Gothic Light  
+- Yu Gothic UI  
+- Zapf Dingbats  
+- ZapfDingbats  
+- Zapfino  
+- 0xProto  
+- 3270  
+
+> **Note**: This list includes both standard system fonts and extended font families such as **Noto**, **STIX**, **ヒラギノ (Hiragino)**, and many open-source monospaced developer fonts.
