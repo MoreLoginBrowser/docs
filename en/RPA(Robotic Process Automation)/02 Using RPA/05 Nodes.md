@@ -12,7 +12,7 @@ description: >-
 
 # Nodes
 
-Nodes are an important capability in RPA. Through nodes, RPA can orderly complete a complex task. The following chapters will introduce the core nodes in MoreLogin in detail.
+Nodes are an important capability in RPA. Through nodes, RPA can orderly complete a complex task. The following chapters will introduce the core nodes in PhoneGrid in detail.
 
 ## Node Operations
 
@@ -36,7 +36,7 @@ Each node contains configuration and output.
 
 ## Variable Referencing
 
-Variable referencing is an important feature in MoreLogin RPA. Variables generated in the process are automatically saved in the "Output" of each node. You can reference them at any time via the "+" after the input box in subsequent steps.
+Variable referencing is an important feature in PhoneGrid RPA. Variables generated in the process are automatically saved in the "Output" of each node. You can reference them at any time via the "+" after the input box in subsequent steps.
 
 
 ## Node Run Status
@@ -52,7 +52,7 @@ When the workflow finishes running, each node will display its current run statu
 
 ## Node Introduction
 
-Nodes in MoreLogin can be divided into the following categories. You can add a new node by clicking "+" between two adjacent nodes in the workflow.
+Nodes in PhoneGrid can be divided into the following categories. You can add a new node by clicking "+" between two adjacent nodes in the workflow.
 
 
 1.  **Simulation Operations**

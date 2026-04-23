@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Local API
-  description: "The MoreLogin API offers a comprehensive and developer-friendly RESTful interface that empowers you to programmatically manage browser profiles, cloud phones, and related resources—enabling seamless automation, scalability, and control.The MoreLogin local API runs on your machine and is accessible at:127.0.0.1:40000"
+  description: "The PhoneGrid API offers a comprehensive and developer-friendly RESTful interface that empowers you to programmatically manage browser profiles, cloud phones, and related resources—enabling seamless automation, scalability, and control.The PhoneGrid local API runs on your machine and is accessible at:127.0.0.1:40000"
   version: 1.0.0
 tags:
   - name: Browser Profile
@@ -23,8 +23,7 @@ paths:
         successful startup, you can obtain the profile debug interface for
         executing Selenium and Puppeteer automation. For Selenium, use the
         WebDriver matching the corresponding kernel version. The WebDriver path
-        can be retrieved from the response after profile startup. Requires
-        MoreLogin client version 2.15.0 or higher.
+        can be retrieved from the response after profile startup.
       tags:
         - Browser Profile
       parameters: []
@@ -57,7 +56,6 @@ paths:
                   type: boolean
                   description: |
                     Whether to start in headless mode. Defaults to `false` if omitted.
-                    Note: Requires client version v2.36.0 or higher.
                   Default: false
                   example: false
                 cdpEvasion:
@@ -66,7 +64,6 @@ paths:
                     Enable CDP fingerprint evasion to reduce detection risk.
                     Only applies to PC environments.
                     Default:`false`.
-                    Note: Requires client version v2.36.0 or higher.
                   Default: false
                   example: false
             example:
@@ -115,7 +112,7 @@ paths:
       deprecated: false
       description: 
         Closes the specified environment. Requires specifying the environment
-        ID. Requires MoreLogin application v2.15.0 or higher.
+        ID. Requires PhoneGrid application v2.15.0 or higher.
       tags:
         - Browser Profile
       parameters: []
@@ -2149,7 +2146,7 @@ paths:
       deprecated: false
       description: >-
         Gets the process IDs of all opened profiles. No request parameters
-        required. Requires MoreLogin application version 2.49.0 or higher.
+        required. Requires PhoneGrid application version 2.49.0 or higher.
       tags:
         - Browser Profile
       parameters: []
@@ -2262,7 +2259,7 @@ paths:
                     envName: P-1788
                     debugPort: '63536'
                     webdriver: >-
-                      C:\Users\EDY\AppData\Roaming\MoreLogin\env-kit\Core\chrome_64_142.9\webdriver.exe
+                      C:\Users\EDY\AppData\Roaming\PhoneGrid\env-kit\Core\chrome_64_142.9\webdriver.exe
                     pid: 22460
           headers: {}
       security: []
@@ -2389,7 +2386,7 @@ paths:
                 code: 0
                 msg: null
                 data:
-                  presignedUrl: https://morelogin...
+                  presignedUrl: https://phonegrid...
                 requestId: d0b850e2c3d54279b524e9540a358e0a
           headers: {}
       security: []
@@ -2424,7 +2421,7 @@ paths:
                 - id
                 - uploadDest
             example:
-              url: https://morelogin...
+              url: https://phonegrid...
               id: 1666625111121936
               uploadDest: /Download
         required: true
@@ -2680,7 +2677,7 @@ paths:
                 msg: null
                 data:
                   status: 20
-                  downUrl: https://get.morelogin.com/...
+                  downUrl: https://get.phonegrid.com/...
                 requestId: 17d9dbfd958e4f40a51897520138d3ff
           headers: {}
       security: []
@@ -3261,10 +3258,10 @@ paths:
                   description: Customize your phone number. Format requirements:Must begin with a + sign, country code must be 1-3 digits (excluding 86), total length 8-14 digits, and contain only + and numbers.
                 brand:
                   type: string
-                  description: device brand,You can query via the https://guide.morelogin.com/api-reference/local-api/local-api/cloud-phone/paths/~1api~1cloudphone~1brand~1models/post interface.
+                  description: device brand,You can query via the https://guide.phonegrid.com/api-reference/local-api/local-api/cloud-phone/paths/~1api~1cloudphone~1brand~1models/post interface.
                 modelId:
                   type: number
-                  description: device model id,You can query via the https://guide.morelogin.com/api-reference/local-api/local-api/cloud-phone/paths/~1api~1cloudphone~1brand~1models/post interface.
+                  description: device model id,You can query via the https://guide.phonegrid.com/api-reference/local-api/local-api/cloud-phone/paths/~1api~1cloudphone~1brand~1models/post interface.
                 proxyId:
                   type: integer
                   format: int64
@@ -4308,8 +4305,8 @@ paths:
                     "size": 204800000
                 }
             },
-            "pic": "https://get.morelogin.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
-            "video": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+            "pic": "https://get.phonegrid.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
+            "video": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -4359,7 +4356,7 @@ paths:
               "size": 204800000
             }
           },
-          "videoDownloadUrl": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+          "videoDownloadUrl": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -4372,7 +4369,7 @@ paths:
 
         "{\"__Extra__\": {\"videoDownloadUrl\": {\"name\":
         \"video_name.mp4\",\"size\": 204800000}},\"videoDownloadUrl\":
-        \"https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
+        \"https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
 
         ```
 
@@ -4542,8 +4539,8 @@ paths:
                     "size": 204800000
                 }
             },
-            "pic": "https://get.morelogin.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
-            "video": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+            "pic": "https://get.phonegrid.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
+            "video": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -4593,7 +4590,7 @@ paths:
               "size": 204800000
             }
           },
-          "videoDownloadUrl": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+          "videoDownloadUrl": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -4606,7 +4603,7 @@ paths:
 
         "{\"__Extra__\": {\"videoDownloadUrl\": {\"name\":
         \"video_name.mp4\",\"size\": 204800000}},\"videoDownloadUrl\":
-        \"https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
+        \"https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
 
         ```
 

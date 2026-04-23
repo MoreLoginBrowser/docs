@@ -4,11 +4,11 @@ tags:
   - Document
   - Tutorial
   - Using RPA
-description: Marketplace 是用户提供的模板，可供所有 MoreLogin 用户使用。
+description: Marketplace 是用户提供的模板，可供所有 PhoneGrid 用户使用。
 ---
 # 市场
 
-Marketplace 是用户提供的模板，可供所有 MoreLogin 用户使用。
+Marketplace 是用户提供的模板，可供所有 PhoneGrid 用户使用。
 
 - [通过Marketplace快速创建Schheldule](./02 Create Schaldule.md)
 - 将我的自定义模板上传到市场（请联系我们）

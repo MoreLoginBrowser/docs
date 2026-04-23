@@ -1,7 +1,5 @@
 # Font
 
-*Last updated: over 11 months ago*
-
 ## Available Fonts
 
 Below is a comprehensive list of fonts supported or referenced in the system:

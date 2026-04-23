@@ -1,12 +1,10 @@
 ## Disable TLS Protocol and Correspondence Between Value
 
-*Last updated: over 7 months ago*
-
-> **Note**: This feature requires **MoreLogin version V2.36.0 or higher**.
+> **Note**: This feature requires **PhoneGrid version V2.36.0 or higher**.
 
 ### Overview
 
-This article provides the mapping between TLS cipher suite names and their hexadecimal identifiers for both **Chrome** and **Firefox** browser profiles in MoreLogin. These values can be used when configuring or disabling specific TLS protocols within browser fingerprints.
+This article provides the mapping between TLS cipher suite names and their hexadecimal identifiers for both **Chrome** and **Firefox** browser profiles in PhoneGrid. These values can be used when configuring or disabling specific TLS protocols within browser fingerprints.
 
 ---
 

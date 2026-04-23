@@ -5,24 +5,24 @@ tags:
   - Tutorial
   - Overview
 description: >-
-  You don't need to complete all projects to start using MoreLogin RPA. You can
+  You don't need to complete all projects to start using PhoneGrid RPA. You can
   use this as a reference and search the documentation according to your n...
 ---
 
 # Using RPA
 
-You don't need to complete all projects to start using MoreLogin RPA. You can use this as a reference and search the documentation according to your needs.
+You don't need to complete all projects to start using PhoneGrid RPA. You can use this as a reference and search the documentation according to your needs.
 
 ## Join the Community
 
-You can get help in the MoreLogin Automation Discord community and share/learn with other MoreLogin automation users.
+You can get help in the PhoneGrid Automation Discord community and share/learn with other PhoneGrid automation users.
 
-- Join [MoreLogin Automation Discord Community](https://discord.gg/B3TqtDEnHQ)
-- Join [MoreLogin Automation Telegram Group](https://t.me/moreloginAPI)
+- Join [PhoneGrid Automation Discord Community](https://discord.gg/B3TqtDEnHQ)
+- Join [PhoneGrid Automation Telegram Group](https://t.me/phonegridAPI)
 
-## Download the Latest MoreLogin Version
+## Download the Latest PhoneGrid Version
 
-If you don't have an account yet, please sign up for a MoreLogin account and download the latest client version.
+If you don't have an account yet, please sign up for a PhoneGrid account and download the latest client version.
 
 ## Try It Out
 
@@ -40,12 +40,12 @@ If you don't have an account yet, please sign up for a MoreLogin account and dow
 
 ## Stay Tuned
 
-Follow MoreLogin's social media accounts:
+Follow PhoneGrid's social media accounts:
 
-[Twitter/X](https://x.com/MoreLogin)
+[Twitter/X](https://x.com/PhoneGrid)
 
-[Telegram](https://t.me/MoreLogin)
+[Telegram](https://t.me/PhoneGrid)
 
 [Discord](https://discord.gg/B3TqtDEnHQ)
 
-[YouTube](https://www.youtube.com/@MoreLoginOfficial)
+[YouTube](https://www.youtube.com/@PhoneGridOfficial)

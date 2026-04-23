@@ -54,7 +54,7 @@ description: '- [Input Selector Type] Dropdown'
 
 ## Example
 
-For example, on the cloud phone desktop, hope to input "morelogin antidetect browser" in the Google search box. Find the fullID of the search box via developer tools as "com.android.quicksearchbox:id/search_src_text".
+For example, on the cloud phone desktop, hope to input "phonegrid antidetect browser" in the Google search box. Find the fullID of the search box via developer tools as "com.android.quicksearchbox:id/search_src_text".
 
 Configuration is as follows:
 
@@ -63,7 +63,7 @@ Configuration is as follows:
 | **Select Type**                 | By Find Element                                                 |
 | **When Condition is Met**       | "fullId" Equals "com.android.quicksearchbox:id/search_src_text" |
 | **Input Field Timeout**         | 3000                                                            |
-| **Input Content**               | morelogin antidetect browser                                    |
+| **Input Content**               | phonegrid antidetect browser                                    |
 | **Clear Field Before Typing**   | On                                                              |
 | **Press Enter After Input**     | Off                                                             |
 | **Delay After Finding Element** | 0                                                               |

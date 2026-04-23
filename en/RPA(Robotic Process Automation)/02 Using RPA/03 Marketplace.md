@@ -6,12 +6,12 @@ tags:
   - Using RPA
 description: >-
   Marketplace are templates provided by users that are available to all
-  MoreLogin users.
+  PhoneGrid users.
 ---
 
 # Marketplace
 
-Marketplace are templates provided by users that are available to all MoreLogin users.
+Marketplace are templates provided by users that are available to all PhoneGrid users.
 
 - [Quickly Create Scheldule via Marketplace](./02 Create Scheldule.md)
 - Upload my custom templates to Marketplace (Please contact us)

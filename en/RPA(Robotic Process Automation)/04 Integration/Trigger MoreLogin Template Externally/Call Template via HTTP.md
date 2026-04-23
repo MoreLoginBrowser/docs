@@ -3,7 +3,7 @@ title: Call Template via HTTP
 tags:
   - Document
   - Tutorial
-  - Trigger MoreLogin Template Externally
+  - Trigger PhoneGrid Template Externally
 description: >-
   Before calling any functional APIs, you must exchange your credentials for a
   JWT Access Token.
@@ -15,14 +15,14 @@ description: >-
 
 Before calling any functional APIs, you must exchange your credentials for a **JWT Access Token**.
 
-* **Endpoint:** `POST https://api.morelogin.com/oauth2/token`
-* **Official Docs:** [Authorization Path](https://guide.morelogin.com/api-reference/open-api/open-api/authorization/paths/~1oauth2~1token/post)
+* **Endpoint:** `POST https://api.phonegrid.com/oauth2/token`
+* **Official Docs:** [Authorization Path](https://guide.phonegrid.com/api-reference/open-api/open-api/authorization/paths/~1oauth2~1token/post)
 
 ### Request (cURL)
 
 ```bash
 curl -i -X POST \
-  https://api.morelogin.com/oauth2/token \
+  https://api.phonegrid.com/oauth2/token \
   -H 'Content-Type: application/json' \
   -d '{
     "client_id": 1672940217990530,
@@ -50,14 +50,14 @@ curl -i -X POST \
 
 Use the access_token obtained from Step 1 to trigger a specific RPA template.
 
-* **Endpoint:** `POST https://api.morelogin.com/cloudphone/rpa/onceTask/save`
-* **Official Docs:** [Execute Schedule Path](https://guide.morelogin.com/api-reference/open-api/open-api/cloud-phoneschedules-management/paths/~1cloudphone~1rpa~1oncetask~1save/post)
+* **Endpoint:** `POST https://api.phonegrid.com/cloudphone/rpa/onceTask/save`
+* **Official Docs:** [Execute Schedule Path](https://guide.phonegrid.com/api-reference/open-api/open-api/cloud-phoneschedules-management/paths/~1cloudphone~1rpa~1oncetask~1save/post)
 
 ### Request (cURL)
 
 ```bash
 curl -i -X POST \
-  https://api.morelogin.com/cloudphone/rpa/onceTask/save \
+  https://api.phonegrid.com/cloudphone/rpa/onceTask/save \
   -H 'Authorization: Bearer <YOUR_JWT_HERE>' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -76,7 +76,7 @@ curl -i -X POST \
 ### How to get IDs?
 
 * **Authorization:** Obtained via the `/oauth2/token` endpoint.
-* **cloudPhoneId:** Found in the MoreLogin Cloud Phone dashboard (numeric ID).
+* **cloudPhoneId:** Found in the PhoneGrid Cloud Phone dashboard (numeric ID).
 * **templateId:** Found in the Automation Template market or personal template list.
 
 ### Understanding templateParameter
@@ -123,10 +123,10 @@ To pass values for the above definition, your templateParameter value should loo
 import requests
 import json
 
-def run_morelogin_task():
+def run_phonegrid_task():
     # 1. Auth
     auth_res = requests.post(
-        "https://api.morelogin.com/oauth2/token",
+        "https://api.phonegrid.com/oauth2/token",
         json={
             "client_id": 1672940217990530,
             "client_secret": "your_secret",
@@ -147,11 +147,11 @@ def run_morelogin_task():
     
     headers = {"Authorization": f"Bearer {token}"}
     response = requests.post(
-        "https://api.morelogin.com/cloudphone/rpa/onceTask/save",
+        "https://api.phonegrid.com/cloudphone/rpa/onceTask/save",
         json=task_payload,
         headers=headers
     )
     return response.json()
 
-print(run_morelogin_task())
+print(run_phonegrid_task())
 ```

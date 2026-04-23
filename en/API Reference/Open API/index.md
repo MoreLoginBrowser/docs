@@ -1,20 +1,18 @@
-### Get started with MoreLogin Open APIs
+### Get started with PhoneGrid Open APIs
 
 The API function can help you programmatically perform basic functions such as quickly creating a cloud phone profile, start it or stop, and so on. It can also be used to debug or remotely control the cloud phone through ADB mode.
 
 For more interface descriptions, please check the website.
 
-> Open API Server endpoint: https://api.morelogin.com
-
-> For detailed request/response schemas, refer to the official API documentation at [MoreLogin Open API Documentation](https://guide.morelogin.com/api-reference/open-api/open-api)
+> Open API Server endpoint: https://api.phonegrid.com
 
 #### 1\. Get API ID and API Key
 
-MoreLogin integrations use a API ID and API Key to authenticate API calls:
+PhoneGrid integrations use a API ID and API Key to authenticate API calls:
 
 - A API ID identifies an member.
     
-- A API Key authenticates a client ID. To call MoreLogin APIs, you'll exchange your API ID and API Key for an access token. Keep this secret safe.
+- A API Key authenticates a client ID. To call PhoneGrid APIs, you'll exchange your API ID and API Key for an access token. Keep this secret safe.
     
 
 Here's how to get your API ID and API Key:
@@ -29,7 +27,7 @@ Here's how to get your API ID and API Key:
 
 #### 2\. Get access token
 
-Exchange your API ID and API Key for an access token. The access token authenticates your app when calling MoreLogin APIs. You can call the MoreLogin OAuth API in any language. in the Postman app, complete the following:
+Exchange your API ID and API Key for an access token. The access token authenticates your app when calling PhoneGrid APIs. You can call the PhoneGrid OAuth API in any language. in the Postman app, complete the following:
 
 1. Select the Authorization collection.
     

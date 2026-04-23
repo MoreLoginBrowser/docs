@@ -38,7 +38,7 @@ adb -s 172.168.10.1:123456 shell 123456
 
 ---
 
-## 2. ADB Connection for Android 13 / Android 14 / Android 15A Cloud Phones
+## 2. ADB Connection for Android 13 / Android 14 / Android 15A / Android 16 Cloud Phones
 
 For these versions, an SSH tunnel must be established to forward the ADB port. This requires two steps.
 

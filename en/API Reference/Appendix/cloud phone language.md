@@ -1,7 +1,5 @@
 ## Cloud Phone - Language
 
-*Last updated: over 7 months ago*
-
 > **Note**: When passing parameters, use the **Language Code** exactly as listed below.
 
 ### Language Code Reference Table

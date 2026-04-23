@@ -3,7 +3,7 @@ title: n8n
 tags:
   - Document
   - Tutorial
-  - Trigger MoreLogin Template Externally
+  - Trigger PhoneGrid Template Externally
 description: >-
   1.  Step 1 (Get Token): Send App ID and Secret to /oauth2/token to obtain a
   temporary accesstoken.
@@ -19,14 +19,14 @@ description: >-
 
 Before you begin, please make sure you have the following information ready:
 
-1.  **API Credentials** (Get from [MoreLogin Dashboard](https://id.morelogin.com/) -> API Management):
+1.  **API Credentials** (Get from [PhoneGrid Dashboard](https://id.phonegrid.com/) -> API Management):
     * `App ID` (i.e., client_id)
     * `Secret Key` (i.e., client_secret)
-    [How to get Authorization?](https://guide.morelogin.com/api-reference/open-api/open-api/authorization/paths/~1oauth2~1token/post)
+    [How to get Authorization?](https://guide.phonegrid.com/api-reference/open-api/open-api/authorization/paths/~1oauth2~1token/post)
 2.  **Resource IDs** (Get from the cloud phone list and template marketplace):
     * `Cloud Phone ID` (numeric only)
     * `Template ID` (numeric only)
-    [How to get?](https://guide.morelogin.com/api-reference/open-api/open-api/cloud-phoneschedules-management/paths/~1cloudphone~1rpa~1oncetask~1save/post)
+    [How to get?](https://guide.phonegrid.com/api-reference/open-api/open-api/cloud-phoneschedules-management/paths/~1cloudphone~1rpa~1oncetask~1save/post)
 ---
 
 ## One-Click Workflow Import
@@ -41,7 +41,7 @@ To simplify configuration, we have packaged a complete n8n dual-node workflow fo
     {
       "parameters": {
         "method": "POST",
-        "url": "[https://api.morelogin.com/oauth2/token](https://api.morelogin.com/oauth2/token)",
+        "url": "[https://api.phonegrid.com/oauth2/token](https://api.phonegrid.com/oauth2/token)",
         "sendBody": true,
         "contentType": "json",
         "bodyParameters": {
@@ -74,7 +74,7 @@ To simplify configuration, we have packaged a complete n8n dual-node workflow fo
     {
       "parameters": {
         "method": "POST",
-        "url": "[https://api.morelogin.com/cloudphone/rpa/onceTask/save](https://api.morelogin.com/cloudphone/rpa/onceTask/save)",
+        "url": "[https://api.phonegrid.com/cloudphone/rpa/onceTask/save](https://api.phonegrid.com/cloudphone/rpa/onceTask/save)",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [

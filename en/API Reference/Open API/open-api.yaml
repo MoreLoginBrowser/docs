@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Open API
-  description: "The MoreLogin open API offers a comprehensive and developer-friendly RESTful interface that empowers you to programmatically manage browser profiles, cloud phones, and related resources—enabling seamless automation, scalability, and control.The MoreLogin open API runs on your machine and is accessible at:https://api.morelogin.com"
+  description: "The PhoneGrid open API offers a comprehensive and developer-friendly RESTful interface that empowers you to programmatically manage browser profiles, cloud phones, and related resources—enabling seamless automation, scalability, and control.The PhoneGrid open API runs on your machine and is accessible at:https://api.phonegrid.com"
   version: 1.0.0
 tags:
   - name: Authorization
@@ -38,7 +38,7 @@ paths:
                   type: string
                 client_secret:
                   description: |
-                    A API Key authenticates a client ID. To call MoreLogin APIs, you'll
+                    A API Key authenticates a client ID. To call PhoneGrid APIs, you'll
                     exchange your API ID and API Key for an access token. Keep this
                     secret safe.
                   type: string
@@ -501,7 +501,7 @@ paths:
                 msg: null
                 data:
                   status: 20
-                  downUrl: https://get.morelogin.com/...
+                  downUrl: https://get.phonegrid.com/...
                 requestId: 17d9dbfd958e4f40a51897520138d3ff
           headers: {}
   /cloudphone/setKeyBox:
@@ -1080,10 +1080,10 @@ paths:
                   description: Customize your phone number. Format requirements:Must begin with a + sign, country code must be 1-3 digits (excluding 86), total length 8-14 digits, and contain only + and numbers.
                 brand:
                   type: string
-                  description: device brand,You can query via the https://guide.morelogin.com/api-reference/open-api/open-api/cloud-phone/paths/~1cloudphone~1brand~1models/post interface.
+                  description: device brand,You can query via the https://guide.phonegrid.com/api-reference/open-api/open-api/cloud-phone/paths/~1cloudphone~1brand~1models/post interface.
                 modelId:
                   type: number
-                  description: device model id,You can query via the https://guide.morelogin.com/api-reference/open-api/open-api/cloud-phone/paths/~1cloudphone~1brand~1models/post interface.
+                  description: device model id,You can query via the https://guide.phonegrid.com/api-reference/open-api/open-api/cloud-phone/paths/~1cloudphone~1brand~1models/post interface.
                 proxyId:
                   type: integer
                   format: int64
@@ -2145,8 +2145,8 @@ paths:
                     "size": 204800000
                 }
             },
-            "pic": "https://get.morelogin.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
-            "video": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+            "pic": "https://get.phonegrid.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
+            "video": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -2196,7 +2196,7 @@ paths:
               "size": 204800000
             }
           },
-          "videoDownloadUrl": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+          "videoDownloadUrl": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -2209,7 +2209,7 @@ paths:
 
         "{\"__Extra__\": {\"videoDownloadUrl\": {\"name\":
         \"video_name.mp4\",\"size\": 204800000}},\"videoDownloadUrl\":
-        \"https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
+        \"https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
 
         ```
 
@@ -2378,8 +2378,8 @@ paths:
                     "size": 204800000
                 }
             },
-            "pic": "https://get.morelogin.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
-            "video": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+            "pic": "https://get.phonegrid.com/prod/cloudPhoneTaskVideo/1556061681934880/1c62314c7e2b4d298abe8d5452d7c050/test.png",
+            "video": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -2429,7 +2429,7 @@ paths:
               "size": 204800000
             }
           },
-          "videoDownloadUrl": "https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
+          "videoDownloadUrl": "https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4"
         }
 
         ```
@@ -2442,7 +2442,7 @@ paths:
 
         "{\"__Extra__\": {\"videoDownloadUrl\": {\"name\":
         \"video_name.mp4\",\"size\": 204800000}},\"videoDownloadUrl\":
-        \"https://get.morelogin.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
+        \"https://get.phonegrid.com/pre/cloudPhoneTaskVideo/1542431036481556/4c4fed83685345ae8f1505fbe0c2f123/baby.mp4\"}"
 
         ```
 
@@ -4407,7 +4407,7 @@ components:
       bearerFormat: JWT
 
 servers:
-  - url: https://api.morelogin.com
+  - url: https://api.phonegrid.com
     description: Morelogin open api endponint
 
 security:

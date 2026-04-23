@@ -1,7 +1,5 @@
 ## Cloud Phone – Country Time Zone Correspondence Table
 
-*Last updated: over 12 months ago*
-
 > **Note**: Use the **Country Abbreviation** and **Time Zone** values listed below when configuring your Cloud Phone profile.
 
 ### Time Zone Mapping by Country

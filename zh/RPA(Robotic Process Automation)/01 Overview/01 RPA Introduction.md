@@ -5,16 +5,16 @@ tags:
   - Tutorial
   - Overview
 description: >-
-  这是 MoreLogin 云电话
-  RPA（机器人流程自动化）文档。您可以使用RPA在MoreLogin云手机中模拟手动操作（例如点击、滑动、输入和数据处理），以自动化重复性、基于规则和耗时的任务。
+  这是 PhoneGrid 云电话
+  RPA（机器人流程自动化）文档。您可以使用RPA在PhoneGrid云手机中模拟手动操作（例如点击、滑动、输入和数据处理），以自动化重复性、基于规则和耗时的任务。
 ---
 # 什么是 RPA？
 
-这是 MoreLogin 云电话 RPA（机器人流程自动化）文档。您可以使用RPA在MoreLogin云手机中模拟手动操作（例如点击、滑动、输入和数据处理），以自动化重复性、基于规则和耗时的任务。
+这是 PhoneGrid 云电话 RPA（机器人流程自动化）文档。您可以使用RPA在PhoneGrid云手机中模拟手动操作（例如点击、滑动、输入和数据处理），以自动化重复性、基于规则和耗时的任务。
 
 本文档涵盖了从入门到开发的所有内容。目前正在改进，我们欢迎[**贡献**](https://discord.gg/B3TqtDEnHQ)。
 
-如果您对 RPA 功能有任何疑问，可以加入我们的 [**Discord**](https://discord.gg/B3TqtDEnHQ) 或 [**Telegram Group**](https://t.me/moreloginAPI) 进行反馈和讨论。
+如果您对 RPA 功能有任何疑问，可以加入我们的 [**Discord**](https://discord.gg/B3TqtDEnHQ) 或 [**Telegram Group**](https://t.me/phonegridAPI) 进行反馈和讨论。
 
 ## 从哪里开始？
 

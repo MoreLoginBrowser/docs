@@ -17,7 +17,7 @@ Goal: Use RPA to open the system dialer.
 
 ## Step 1: Enter RPA Page
 
-In the MoreLogin client, click **Automation** on the far left.
+In the PhoneGrid client, click **Automation** on the far left.
 
 ## Step 2: Create Templates
 

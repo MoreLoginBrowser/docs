@@ -1,6 +1,6 @@
-# MoreLogin Local API Usage Guide
+# PhoneGrid Local API Usage Guide
 
-The MoreLogin local API allows you to programmatically manage anti-detection browser profiles and cloud phones directly from your own machine. This guide explains what you can do, how to access the API, and key usage notes.
+The PhoneGrid local API allows you to programmatically manage anti-detection browser profiles and cloud phones directly from your own machine. This guide explains what you can do, how to access the API, and key usage notes.
 
 ---
 
@@ -20,7 +20,7 @@ POST http://127.0.0.1:40000/api/env/create/quick
 
 > **Security Note**:  
 > The API is only available on `localhost` for security. It cannot be accessed remotely. 
-> Morelogin also provides an open API. Please refer to the documentation for more information[MoreLogin Open API Documentation](https://guide.morelogin.com/api-reference/open-api/open-api)
+> Morelogin also provides an open API. Please refer to the documentation for more information[PhoneGrid Open API Documentation](https://guide.phonegrid.com/api-reference/open-api/open-api)
 
 ---
 
@@ -331,12 +331,12 @@ Response includes `envId`, which you can use to start, close, or check status la
 
 ## Requirements
 
-- MoreLogin desktop app installed and running (v2.15.0 or later recommended)
-- Request must be made by logging into the morelogin account
+- PhoneGrid desktop app installed and running (v2.15.0 or later recommended)
+- Request must be made by logging into the phonegrid account
 - Requests must originate from the same machine (no remote access)
 
 ---
 
 > **Tip**: Use this API to build custom automation tools, integrate with RPA platforms, or orchestrate multi-account workflows—all while maintaining session isolation and fingerprint integrity.
 
-For detailed request/response schemas, refer to the official API documentation at [MoreLogin Local API Documentation](https://guide.morelogin.com/api-reference/local-api/local-api).
+For detailed request/response schemas, refer to the official API documentation at [PhoneGrid Local API Documentation](https://guide.phonegrid.com/api-reference/local-api/local-api).
